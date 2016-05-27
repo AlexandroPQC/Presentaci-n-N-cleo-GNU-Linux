@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<!-- saved from url=(0051)http://slides.com/alexandrovirus/nucleo-gnu-linux#/ -->
+<html class="sl-root decks show mz-applicationcache mz-history mz-localstorage mz-svg mz-opacity mz-rgba mz-backgroundsize mz-cssanimations mz-csstransforms mz-csstransforms3d mz-csstransitions mz-flexbox mz-flexboxlegacy mz-fullscreen loaded ua-linux ua-chrome has-visible-scrollbars reveal-is-ready wf-cabinsketch-n4-active wf-oxygen-n4-active wf-active fonts-are-ready" data-account="free" data-minimalscrollbar="yes"><style>html::-webkit-scrollbar{display:none !important}body::-webkit-scrollbar{display:none !important}</style><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<script type="text/javascript" src="./Núcleo GNU_Linux by Alejandro Quisbert Carvajal_files/4fd2e9786b"></script><script src="./Núcleo GNU_Linux by Alejandro Quisbert Carvajal_files/nr-943.min.js"></script><script type="application/javascript" async="" defer="" src="./Núcleo GNU_Linux by Alejandro Quisbert Carvajal_files/track.js"></script><script type="text/javascript" async="" src="./Núcleo GNU_Linux by Alejandro Quisbert Carvajal_files/f7sH7NavrjjvuGxByaw.js"></script><script async="" src="./Núcleo GNU_Linux by Alejandro Quisbert Carvajal_files/analytics.js"></script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"4fd2e9786b","applicationID":"1563900","transactionName":"cApZREQKWl9XFxZQVlAORB9FDVlE","queueTime":0,"applicationTime":46,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(e,t){return function(){o(e,[(new Date).getTime()].concat(a(arguments)),null,t)}}var o=e("handle"),i=e(2),a=e(3);"undefined"==typeof window.newrelic&&(newrelic=NREUM);var u=["setPageViewName","setCustomAttribute","finished","addToTrace","inlineHit"],c=["addPageAction"],f="api-";i(u,function(e,t){newrelic[t]=r(f+t,"api")}),i(c,function(e,t){newrelic[t]=r(f+t)}),t.exports=newrelic,newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),o("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(0>o?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?u(e,a,i):i()}function n(n,r,o){e&&e(n,r,o);for(var i=t(o),a=l(n),u=a.length,c=0;u>c;c++)a[c].apply(i,r);var s=f[g[n]];return s&&s.push([m,n,r,i]),i}function p(e,t){w[e]=l(e).concat(t)}function l(e){return w[e]||[]}function d(e){return s[e]=s[e]||o(n)}function v(e,t){c(e,function(e,n){t=t||"feature",g[n]=t,t in f||(f[t]=[])})}var w={},g={},m={on:p,emit:n,get:d,listeners:l,context:t,buffer:v};return m}function i(){return new r}var a="nr@context",u=e("gos"),c=e(2),f={},s={},p=t.exports=o();p.backlog=f},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!w++){var e=v.info=NREUM.info,t=s.getElementsByTagName("script")[0];if(e&&e.licenseKey&&e.applicationID&&t){c(l,function(t,n){e[t]||(e[t]=n)});var n="https"===p.split(":")[0]||e.sslForHttp;v.proto=n?"https://":"http://",u("mark",["onload",a()],null,"api");var r=s.createElement("script");r.src=v.proto+e.agent,t.parentNode.insertBefore(r,t)}}}function o(){"complete"===s.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=window,s=f.document;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:f.XMLHttpRequest,REQ:f.Request,EV:f.Event,PR:f.Promise,MO:f.MutationObserver},e(1);var p=""+location,l={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-943.min.js"},d=window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent),v=t.exports={offset:a(),origin:p,features:{},xhrWrappable:d};s.addEventListener?(s.addEventListener("DOMContentLoaded",i,!1),f.addEventListener("load",r,!1)):(s.attachEvent("onreadystatechange",o),f.attachEvent("onload",r)),u("mark",["firstbyte",a()],null,"api");var w=0},{}]},{},["loader"]);</script>
+
+    <title>Núcleo GNU/Linux by Alejandro Quisbert Carvajal</title>
+    <meta name="description" content="Presentación Grupo de Estudio">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <meta property="og:title" content="Núcleo GNU/Linux by Alejandro Quisbert Carvajal">
+    <meta property="og:description" content="Presentación Grupo de Estudio">
+    <meta property="og:site_name" content="Slides">
+    <meta property="og:image" content="https://s3.amazonaws.com/media-p.slid.es/thumbnails/secure/7ad233/decks.jpg">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://slides.com/alexandrovirus/nucleo-gnu-linux">
+    <meta property="fb:app_id" content="146002942236376">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="msapplication-tap-highlight" content="no">
+
+    <link rel="manifest" href="http://slides.com/manifest.json">
+
+    <link href="./Núcleo GNU_Linux by Alejandro Quisbert Carvajal_files/css" rel="stylesheet" type="text/css" data-application-font="opensans">
+
+    <link href="./Núcleo GNU_Linux by Alejandro Quisbert Carvajal_files/slides-1df814f963530a8557bab503c81c1049.css" media="all" rel="stylesheet">
+    <link href="./Núcleo GNU_Linux by Alejandro Quisbert Carvajal_files/application-a1ce2e5a5d61d5719cef1b8a4b00ba2f.css" media="all" rel="stylesheet">
+    	<link href="./Núcleo GNU_Linux by Alejandro Quisbert Carvajal_files/deck-v2-4902e0ea97484b5922b459f62ed30634.css" media="all" rel="stylesheet">
+
+
+
+<style id="user-css-output" type="text/css"></style>
+
+    <meta content="authenticity_token" name="csrf-param">
+<meta content="s0tXy4dSbj4jEASiTxt6IN8R/FP6Q5vpL+ToybD/B8k=" name="csrf-token">
+    <script type="text/javascript">
+  if( !/dnt=1/.test( window.location.search ) ) {
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-39670045-1', 'auto');
+    ga('send', 'pageview');
+
+  }
+</script><style type="text/css"></style>
+    <!--[if lt IE 9]>
+    <script src="//assets.slid.es/assets/html5shiv-b51d49ab0e89834a02ffce4a59905afb.js"></script>
+<![endif]-->
+    	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@Slides">
+	<meta name="twitter:title" content="Núcleo GNU/Linux">
+	<meta name="twitter:description" content="Presentación Grupo de Estudio">
+	<meta name="twitter:image" content="https://s3.amazonaws.com/media-p.slid.es/thumbnails/secure/7ad233/decks.jpg">
+
+  <style type="text/css" media="screen">.uv-icon{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;display:inline-block;cursor:pointer;position:relative;-moz-transition:all 300ms;-o-transition:all 300ms;-webkit-transition:all 300ms;transition:all 300ms;width:39px;height:39px;position:fixed;z-index:100002;opacity:0.8;-moz-transition:opacity 100ms;-o-transition:opacity 100ms;-webkit-transition:opacity 100ms;transition:opacity 100ms}.uv-icon.uv-bottom-right{bottom:10px;right:12px}.uv-icon.uv-top-right{top:10px;right:12px}.uv-icon.uv-bottom-left{bottom:10px;left:12px}.uv-icon.uv-top-left{top:10px;left:12px}.uv-icon.uv-is-selected{opacity:1}.uv-icon svg{width:39px;height:39px}.uv-popover{font-family:sans-serif;font-weight:100;font-size:13px;color:black;position:fixed;z-index:100001}.uv-popover-content{-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;background:white;position:relative;width:325px;height:325px;-moz-transition:background 200ms;-o-transition:background 200ms;-webkit-transition:background 200ms;transition:background 200ms}.uv-bottom .uv-popover-content{-moz-box-shadow:rgba(0,0,0,0.3) 0 -10px 60px,rgba(0,0,0,0.1) 0 0 20px;-webkit-box-shadow:rgba(0,0,0,0.3) 0 -10px 60px,rgba(0,0,0,0.1) 0 0 20px;box-shadow:rgba(0,0,0,0.3) 0 -10px 60px,rgba(0,0,0,0.1) 0 0 20px}.uv-top .uv-popover-content{-moz-box-shadow:rgba(0,0,0,0.3) 0 10px 60px,rgba(0,0,0,0.1) 0 0 20px;-webkit-box-shadow:rgba(0,0,0,0.3) 0 10px 60px,rgba(0,0,0,0.1) 0 0 20px;box-shadow:rgba(0,0,0,0.3) 0 10px 60px,rgba(0,0,0,0.1) 0 0 20px}.uv-left .uv-popover-content{-moz-box-shadow:rgba(0,0,0,0.3) 10px 0 60px,rgba(0,0,0,0.1) 0 0 20px;-webkit-box-shadow:rgba(0,0,0,0.3) 10px 0 60px,rgba(0,0,0,0.1) 0 0 20px;box-shadow:rgba(0,0,0,0.3) 10px 0 60px,rgba(0,0,0,0.1) 0 0 20px}.uv-right .uv-popover-content{-moz-box-shadow:rgba(0,0,0,0.3) -10px 0 60px,rgba(0,0,0,0.1) 0 0 20px;-webkit-box-shadow:rgba(0,0,0,0.3) -10px 0 60px,rgba(0,0,0,0.1) 0 0 20px;box-shadow:rgba(0,0,0,0.3) -10px 0 60px,rgba(0,0,0,0.1) 0 0 20px}.uv-ie8 .uv-popover-content{position:relative}.uv-ie8 .uv-popover-content .uv-popover-content-shadow{display:block;background:black;content:'';position:absolute;left:-15px;top:-15px;width:100%;height:100%;filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius=15,MakeShadow=true,ShadowOpacity=0.30);z-index:-1}.uv-popover-tail{border:9px solid transparent;width:0;z-index:10;position:absolute;-moz-transition:border-top-color 200ms;-o-transition:border-top-color 200ms;-webkit-transition:border-top-color 200ms;transition:border-top-color 200ms}.uv-top .uv-popover-tail{bottom:-20px;border-top:11px solid white}.uv-bottom .uv-popover-tail{top:-20px;border-bottom:11px solid white}.uv-left .uv-popover-tail{right:-20px;border-left:11px solid white}.uv-right .uv-popover-tail{left:-20px;border-right:11px solid white}.uv-popover-loading{background:white;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;position:absolute;width:100%;height:100%;left:0;top:0}.uv-popover-loading-text{position:absolute;top:50%;margin-top:-0.5em;width:100%;text-align:center}.uv-popover-iframe-container{height:100%}.uv-popover-iframe{-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;overflow:hidden}.uv-is-hidden{display:none}.uv-is-invisible{display:block !important;visibility:hidden !important}.uv-is-transitioning{display:block !important}.uv-no-transition{-moz-transition:none !important;-webkit-transition:none !important;-o-transition:color 0 ease-in !important;transition:none !important}.uv-fade{opacity:1;-moz-transition:opacity 200ms ease-out;-o-transition:opacity 200ms ease-out;-webkit-transition:opacity 200ms ease-out;transition:opacity 200ms ease-out}.uv-fade.uv-is-hidden{opacity:0}.uv-scale-top,.uv-scale-top-left,.uv-scale-top-right,.uv-scale-bottom,.uv-scale-bottom-left,.uv-scale-bottom-right,.uv-scale-right,.uv-scale-right-top,.uv-scale-right-bottom,.uv-scale-left,.uv-scale-left-top,.uv-scale-left-bottom,.uv-slide-top,.uv-slide-bottom,.uv-slide-left,.uv-slide-right{opacity:1;-moz-transition:all 80ms ease-out;-o-transition:all 80ms ease-out;-webkit-transition:all 80ms ease-out;transition:all 80ms ease-out}.uv-scale-top.uv-is-hidden{opacity:0;-moz-transform:scale(0.8) translateY(-15%);-ms-transform:scale(0.8) translateY(-15%);-webkit-transform:scale(0.8) translateY(-15%);transform:scale(0.8) translateY(-15%)}.uv-scale-top-left.uv-is-hidden{opacity:0;-moz-transform:scale(0.8) translateY(-15%) translateX(-10%);-ms-transform:scale(0.8) translateY(-15%) translateX(-10%);-webkit-transform:scale(0.8) translateY(-15%) translateX(-10%);transform:scale(0.8) translateY(-15%) translateX(-10%)}.uv-scale-top-right.uv-is-hidden{opacity:0;-moz-transform:scale(0.8) translateY(-15%) translateX(10%);-ms-transform:scale(0.8) translateY(-15%) translateX(10%);-webkit-transform:scale(0.8) translateY(-15%) translateX(10%);transform:scale(0.8) translateY(-15%) translateX(10%)}.uv-scale-bottom.uv-is-hidden{opacity:0;-moz-transform:scale(0.8) translateY(15%);-ms-transform:scale(0.8) translateY(15%);-webkit-transform:scale(0.8) translateY(15%);transform:scale(0.8) translateY(15%)}.uv-scale-bottom-left.uv-is-hidden{opacity:0;-moz-transform:scale(0.8) translateY(15%) translateX(-10%);-ms-transform:scale(0.8) translateY(15%) translateX(-10%);-webkit-transform:scale(0.8) translateY(15%) translateX(-10%);transform:scale(0.8) translateY(15%) translateX(-10%)}.uv-scale-bottom-right.uv-is-hidden{opacity:0;-moz-transform:scale(0.8) translateY(15%) translateX(10%);-ms-transform:scale(0.8) translateY(15%) translateX(10%);-webkit-transform:scale(0.8) translateY(15%) translateX(10%);transform:scale(0.8) translateY(15%) translateX(10%)}.uv-scale-right.uv-is-hidden{opacity:0;-moz-transform:scale(0.8) translateX(15%);-ms-transform:scale(0.8) translateX(15%);-webkit-transform:scale(0.8) translateX(15%);transform:scale(0.8) translateX(15%)}.uv-scale-right-top.uv-is-hidden{opacity:0;-moz-transform:scale(0.8) translateX(15%) translateY(-10%);-ms-transform:scale(0.8) translateX(15%) translateY(-10%);-webkit-transform:scale(0.8) translateX(15%) translateY(-10%);transform:scale(0.8) translateX(15%) translateY(-10%)}.uv-scale-right-bottom.uv-is-hidden{opacity:0;-moz-transform:scale(0.8) translateX(15%) translateY(10%);-ms-transform:scale(0.8) translateX(15%) translateY(10%);-webkit-transform:scale(0.8) translateX(15%) translateY(10%);transform:scale(0.8) translateX(15%) translateY(10%)}.uv-scale-left.uv-is-hidden{opacity:0;-moz-transform:scale(0.8) translateX(-15%);-ms-transform:scale(0.8) translateX(-15%);-webkit-transform:scale(0.8) translateX(-15%);transform:scale(0.8) translateX(-15%)}.uv-scale-left-top.uv-is-hidden{opacity:0;-moz-transform:scale(0.8) translateX(-15%) translateY(-10%);-ms-transform:scale(0.8) translateX(-15%) translateY(-10%);-webkit-transform:scale(0.8) translateX(-15%) translateY(-10%);transform:scale(0.8) translateX(-15%) translateY(-10%)}.uv-scale-left-bottom.uv-is-hidden{opacity:0;-moz-transform:scale(0.8) translateX(-15%) translateY(10%);-ms-transform:scale(0.8) translateX(-15%) translateY(10%);-webkit-transform:scale(0.8) translateX(-15%) translateY(10%);transform:scale(0.8) translateX(-15%) translateY(10%)}.uv-slide-top.uv-is-hidden{-moz-transform:translateY(-100%);-ms-transform:translateY(-100%);-webkit-transform:translateY(-100%);transform:translateY(-100%)}.uv-slide-bottom.uv-is-hidden{-moz-transform:translateY(100%);-ms-transform:translateY(100%);-webkit-transform:translateY(100%);transform:translateY(100%)}.uv-slide-left.uv-is-hidden{-moz-transform:translateX(-100%);-ms-transform:translateX(-100%);-webkit-transform:translateX(-100%);transform:translateX(-100%)}.uv-slide-right.uv-is-hidden{-moz-transform:translateX(100%);-ms-transform:translateX(100%);-webkit-transform:translateX(100%);transform:translateX(100%)}
+</style><link rel="stylesheet" href="./Núcleo GNU_Linux by Alejandro Quisbert Carvajal_files/cabinsketch.css"><link rel="stylesheet" href="./Núcleo GNU_Linux by Alejandro Quisbert Carvajal_files/oxygen.css"><style type="text/css"></style><style>a, button, .sl-select, .sl-checkbox label, .radio label { outline: none !important; }</style><script type="text/javascript" async="" src="./Núcleo GNU_Linux by Alejandro Quisbert Carvajal_files/embed.js"></script></head>
+  <body>
+    
+    <div id="container" class="container">
+      <header class="global-header show-on-scroll extra-wide">
+  <div class="wrapper">
+    <h1 class="logo-animation open">
+      <a class="symbol" href="http://slides.com/">
+        <div class="box-1"></div>
+        <div class="box-2"></div>
+        <div class="box-3"></div>
+      </a>
+      <a class="word" href="http://slides.com/"></a>
+    </h1>
+    <ul class="nav nav-long">
+        <li class="nav-item" data-page-id="home/explore">
+          <a class="nav-item-anchor" href="http://slides.com/explore"><span class="nav-item-label">Explore</span></a>
+        </li>
+        <li class="nav-item" data-page-id="static/features">
+          <a class="nav-item-anchor" href="http://slides.com/features"><span class="nav-item-label">Features</span></a>
+        </li>
+        <li class="nav-item" data-page-id="static/pricing">
+          <a class="nav-item-anchor" href="http://slides.com/pricing?h=1"><span class="nav-item-label">Pricing</span></a>
+        </li>
+        <li class="nav-item-divider"></li>
+        <li class="nav-item" data-page-id="sessions/new">
+          <a class="nav-item-anchor" href="http://slides.com/users/sign_in"><span class="nav-item-label">Log in</span></a>
+        </li>
+        <li class="nav-item nav-item-highlighted nav-item-secondary" data-page-id="static/pricing">
+          <a class="nav-item-anchor" href="http://slides.com/pricing"><span class="nav-item-label">Sign up</span></a>
+        </li>
+    </ul>
+  </div>
+</header>
+
+      
+      <div id="main" class="main" role="main">
+        
+
+
+
+
+<div class="marquee">
+
+	<div class="reveal-frame">
+		<div class="reveal-viewport theme-font-sketch theme-color-white-blue">
+			<div class="reveal zoom has-light-background" role="application" data-transition-speed="default" data-background-transition="none">
+				<div class="slides" style="width: 960px; height: 700px; left: 50%; top: 50%; bottom: auto; right: auto; transform: translate(-50%, -50%) scale(0.650571);">
+					<section class="stack present" style="display: block;"><section class="has-light-background present" data-background-color="#ffffff" style="display: block;"><div data-block-id="28d33b8c487420274457780aea9b710b" class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 463px; height: auto;"><div style="z-index: 11;" class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text">
+<p><span style="font-size:1.8em">Núcleo GNU/Linux</span></p>
+</div></div>
+<div data-block-id="f0b7ef9cb382f324836f0fdab32dd0a1" style="min-width: 30px; min-height: 30px; width: 237px; height: 300px; left: 355px; top: 140px;" data-block-type="image" class="sl-block"><div style="z-index: 12;" class="sl-block-content"><img data-natural-height="900" data-natural-width="711" style="" src="./Núcleo GNU_Linux by Alejandro Quisbert Carvajal_files/gnu-linux.png"></div></div>
+</section><section class="future" aria-hidden="true" hidden="" style="display: block;"><div class="sl-block" data-block-type="text" data-block-id="3e99cf0e2a570667ff39b19e49835696" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 180px; top: 292px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; line-height: 2.6; font-size: 150%;" data-has-line-height="">
+<p>¿Quiénes Somos?</p>
+</div></div></section><section class="future" aria-hidden="true" hidden="" style="display: block;"><div class="sl-block" data-block-type="text" data-block-id="df38c4e685c7a1bf5fb130165dd8c7dc" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 180px; top: 263px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; font-size: 150%;">
+<p>Grupo de amigos que investigamos herramientas y tecnologías libres.</p>
+</div></div></section><section class="future" aria-hidden="true" hidden="" style="display: none;"><div class="sl-block" data-block-type="image" data-block-id="aeba5f06d154c1a8ed541ca69426ee24" style="min-width: 30px; min-height: 30px; width: 360px; height: 239.614px; left: 300px; top: 230px;"><div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="622" data-natural-height="414" src="./Núcleo GNU_Linux by Alejandro Quisbert Carvajal_files/compartir.jpg"></div></div></section></section><section class="stack future" hidden="" aria-hidden="true" style="display: block;"><section style="display: block;"><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 152px; height: auto;" data-block-id="0f09bf3a08a6af8153501c6efa1a19e9"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
+<h1>¿Qué&nbsp;es Linux?</h1>
+</div></div>
+<div class="sl-block" data-block-type="image" data-block-id="7cf4abb5affc082e86eb107e4d3d777e" style="min-width: 30px; min-height: 30px; width: 258.667px; height: 300px; left: 351px; top: 270px;"><div class="sl-block-content" style="z-index: 12;"><img style="" data-natural-width="776" data-natural-height="900" src="./Núcleo GNU_Linux by Alejandro Quisbert Carvajal_files/linuxtux.png"></div></div></section><section class="future" aria-hidden="true" style="display: block;"><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 238px; height: auto;" data-block-id="1b2efbeef21504fa6aef7e21f85dae0e"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text">
+<h1>Linux</h1>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 346px; height: auto;" data-block-id="6d93d419e63020fa8793bed76aa7fe2c"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Subtitle">
+<h2>Kernel del SO GNU/Linux</h2>
+</div></div></section><section class="future" aria-hidden="true" style="display: none;"><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 302px; height: auto;" data-block-id="c792f1159b49ba32fe2e6ed95df3b090"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text">
+<h1>¿Y qué&nbsp;es GNU?</h1>
+</div></div></section><section class="future" aria-hidden="true" style="display: none;"><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 232px; height: auto;" data-block-id="434cc957a1d6719af39bde5a41f90383"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text">
+<h1>GNU</h1>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 800px; left: 74px; top: 350px; height: auto;" data-block-id="ab67bd9d436c888ccf321ecea26621ad"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Subtitle">
+<h2>SO de Software Libre</h2>
+</div></div></section><section class="future" aria-hidden="true" style="display: none;"><div class="sl-block" data-block-type="image" data-block-id="aed6c33ce41b7b6902240ba1e210d97b" style="min-width: 30px; min-height: 30px; width: 286.364px; height: 300px; left: 337px; top: 200px;"><div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="210" data-natural-height="220" src="./Núcleo GNU_Linux by Alejandro Quisbert Carvajal_files/Suspicious.png"></div></div></section><section class="future" aria-hidden="true" style="display: none;"><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 92px; height: auto;" data-block-id="33028957ac2b45bfbbd69f3be99d883e"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 11;">
+<h1>Un poco de historia</h1>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 800px; left: 320px; top: 289px; height: auto;" data-block-id="12863fbae7f0fef79868aa365b83f655"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Subtitle" style="z-index: 12;">
+<h2>Richard Stallman</h2>
+
+<p>Proyecto GNU</p>
+
+<h3>Free As In Freedom</h3>
+
+<p>(Libre como en libertad)</p>
+</div></div>
+<div class="sl-block" data-block-type="image" data-block-id="75e91984971f76bc41305c64b4fbf060" style="min-width: 30px; min-height: 30px; width: 360px; height: 273.086px; left: 80px; top: 268px;"><div class="sl-block-content" style="z-index: 13;"><img data-natural-width="700" data-natural-height="531" style="" src="./Núcleo GNU_Linux by Alejandro Quisbert Carvajal_files/stallman1.jpg"></div></div></section><section class="future" aria-hidden="true" style="display: none;"><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 70px; height: auto;" data-block-id="f5b9212d701ea6ecaf066acc7a6a7386"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
+<h1>GNU</h1>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 140px; height: auto;" data-block-id="7d2f548d93a0bd00d7ec1578683eb715"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Subtitle" style="z-index: 11;">
+<h2>GNU Not Unix</h2>
+</div></div>
+<div class="sl-block" data-block-type="image" data-block-id="f95d72bcda0129eef5765e7e8c823640" style="min-width: 30px; min-height: 30px; width: 360px; height: 351.925px; left: 300px; top: 214px;"><div class="sl-block-content" style="z-index: 13;"><img data-natural-width="535" data-natural-height="523" style="" src="./Núcleo GNU_Linux by Alejandro Quisbert Carvajal_files/gnu.png"></div></div></section><section class="future" aria-hidden="true" style="display: none;"><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 92px; height: auto;" data-block-id="661f47f8dabe07b5a8043c037d10784e"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
+<h1>Núcleo Linux</h1>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 800px; left: 319px; top: 325px; height: auto;" data-block-id="b766c66793d1800e566f0b02224b82ce"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Subtitle" style="z-index: 11;">
+<h2>Linus Torvalds</h2>
+</div></div>
+<div class="sl-block" data-block-type="image" data-block-id="61f037e58597860648d89f1d3b759b7c" style="min-width: 30px; min-height: 30px; width: 360px; height: 257.023px; left: 40px; top: 233px;"><div class="sl-block-content" style="z-index: 13;"><img style="" data-natural-width="860" data-natural-height="614" src="./Núcleo GNU_Linux by Alejandro Quisbert Carvajal_files/linus.jpg"></div></div></section><section class="future" aria-hidden="true" style="display: none;"><div class="sl-block" data-block-type="image" data-block-id="43019b6131d71a3f41cdc4b382b436d7" style="min-width: 30px; min-height: 30px; width: 460px; height: 460px; left: 240px; top: 120px;"><div class="sl-block-content" style="z-index: 11;"><img data-natural-width="500" data-natural-height="500" style="" src="./Núcleo GNU_Linux by Alejandro Quisbert Carvajal_files/Arquitectura_linux.png"></div></div></section></section><section class="stack future" hidden="" aria-hidden="true" style="display: block;"><section style="display: block;"><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 302px; height: auto;" data-block-id="48306c02cc6e4aae6f4370b1a282e115"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text">
+<h1>Software Libre</h1>
+</div></div></section><section class="future" aria-hidden="true" style="display: none;"><div class="sl-block" data-block-type="image" data-block-id="937702d447ea3b87823a3c37dc4b5c3b" style="min-width: 30px; min-height: 30px; width: 495px; height: 330px; left: 233px; top: 185px;"><div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="450" data-natural-height="300" src="./Núcleo GNU_Linux by Alejandro Quisbert Carvajal_files/librenolibre.gif"></div></div></section><section class="future" aria-hidden="true" style="display: none;"><div class="sl-block" data-block-type="text" style="width: 430px; left: 23px; top: 86px; height: auto;" data-block-id="b85d33865963a51644b1622edaaf5797"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="text-align: left;">
+<h2>Libertades del Software Libre</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 430px; left: 23px; top: 235px; height: auto;" data-block-id="d9cd43eb223fc28f6753725f69162c4c"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nec metus justo. Aliquam erat volutpat." style="z-index: 13; text-align: left;" dir="ui">
+<ul>
+	<li>
+<strong>0.&nbsp;</strong><strong>Ejecutar&nbsp;</strong>el programa como desees.&nbsp;</li>
+	<li>
+<strong>1.&nbsp;Estudiar</strong> como funciona<strong>&nbsp;</strong>el programa y modificarlo adaptándolo a tus necesidades.</li>
+	<li>
+<strong>2.&nbsp;Redistribuir</strong> copias exactas.</li>
+	<li>
+<strong>3. Mejorar</strong> el programa y hacer pública tus mejoras.</li>
+</ul>
+</div></div>
+<div class="sl-block" data-block-type="image" style="width: 454px; height: 279.227px; left: 479px; top: 205px;" data-block-id="8b9ed016f8de7ee1295ecb5457a63dbc"><div class="sl-block-content"><img style="" data-natural-width="665" data-natural-height="409" src="./Núcleo GNU_Linux by Alejandro Quisbert Carvajal_files/fsflogo.jpg"></div></div></section><section class="future" aria-hidden="true" style="display: none;"><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 205px; height: auto;" data-block-id="92553a8711d0daf4a77504777c24c9c9"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text">
+<h1>¿Cómo saber si un programa es software libre?</h1>
+</div></div></section><section class="future" aria-hidden="true" style="display: none;"><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 70px; height: auto;" data-block-id="5e232e0c1d379076546549fe7f458fc5"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 11;">
+<h1>Licencias</h1>
+</div></div>
+<div class="sl-block" data-block-type="text" data-block-id="866329a2131013ed08d47e63accee7aa" style="height: auto; min-width: 30px; min-height: 30px; width: 308px; left: 12px; top: 256px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
+<ul>
+	<li>GPL</li>
+	<li>AGPL</li>
+	<li>LGPL</li>
+	<li>Apache</li>
+	<li>MIT</li>
+	<li>Creative Commons</li>
+</ul>
+</div></div>
+<div class="sl-block" data-block-type="image" data-block-id="763c789fd0bfc1bc3273df9fead3f561" style="min-width: 30px; min-height: 30px; width: 360px; height: 86.4844px; left: 529px; top: 200px;"><div class="sl-block-content" style="z-index: 13;"><img style="" data-natural-width="512" data-natural-height="123" src="./Núcleo GNU_Linux by Alejandro Quisbert Carvajal_files/creativecommons.png"></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="ebed82d203b911d4f49f320b9eb735a7" style="min-width: 30px; min-height: 30px; width: 360px; height: 179.515px; left: 529px; top: 380px;"><div class="sl-block-content" style="z-index: 14;"><img style="" data-natural-width="742" data-natural-height="370" src="./Núcleo GNU_Linux by Alejandro Quisbert Carvajal_files/gpl3.png"></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="3dd5f6c1f06b959d9ed6f13e983f034a" style="min-width: 30px; min-height: 30px; width: 146px; height: 146px; left: 334px; top: 274px;"><div class="sl-block-content" style="z-index: 15;"><img data-natural-width="200" data-natural-height="200" style="" src="./Núcleo GNU_Linux by Alejandro Quisbert Carvajal_files/copyleft.png"></div></div></section></section><section class="stack future" hidden="" aria-hidden="true" style="display: none;"><section style="display: none;"><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 302px; height: auto;" data-block-id="039d82c18646b802d3171bf20f2dcfed"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text">
+<h1>Distribuciones</h1>
+</div></div></section><section class="future" aria-hidden="true" style="display: none;"><div class="sl-block" data-block-type="image" data-block-id="038a57f0305696db3aa5859705a53685" style="min-width: 30px; min-height: 30px; width: 423.889px; height: 1090px; left: 56px; top: 37px;"><div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="350" data-natural-height="900" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/456441/images/2307474/GNULINUX-Y-DISTRIBUCIONES.jpg"></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="989c4580aab50b57e099593ad67fff0f" style="min-width: 30px; min-height: 30px; width: 402.889px; height: 1036px; left: 498px; top: -370px;"><div class="sl-block-content" style="z-index: 12;"><img data-natural-width="350" data-natural-height="900" style="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/456441/images/2307474/GNULINUX-Y-DISTRIBUCIONES.jpg"></div></div></section><section class="future" aria-hidden="true" style="display: none;"><div class="sl-block" data-block-type="image" data-block-id="c824e8d12c960e67c3d5e4b85632794a" style="min-width: 30px; min-height: 30px; width: 960px; height: 540px; left: 0px; top: 80px;"><div class="sl-block-content" style="z-index: 11;"><img data-natural-width="1600" data-natural-height="900" style="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/456441/images/2307622/ubuntu.jpg"></div></div></section><section class="future" aria-hidden="true" style="display: none;"><div class="sl-block" data-block-type="image" data-block-id="fcef33ef1bafc856efce01181a42e497" style="min-width: 30px; min-height: 30px; width: 873.6px; height: 624px; left: 47px; top: 36px;"><div class="sl-block-content" style="z-index: 11;"><img data-natural-width="630" data-natural-height="450" style="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/456441/images/2307628/redhat.jpeg"></div></div></section><section class="future" aria-hidden="true" style="display: none;"><div class="sl-block" data-block-type="image" data-block-id="3d58613bd8623a0d6403d8b67c790596" style="min-width: 30px; min-height: 30px; width: 960px; height: 600px; left: 0px; top: 51px;"><div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="1440" data-natural-height="900" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/456441/images/2307631/archlinux.png"></div></div></section><section class="future" aria-hidden="true" style="display: none;"><div class="sl-block" data-block-type="image" data-block-id="75fb838f49aa315ceeecdb372772896b" style="min-width: 30px; min-height: 30px; width: 960px; height: 674.627px; left: 0px; top: 13.3731px;"><div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="804" data-natural-height="565" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/456441/images/2307634/fedora.png"></div></div></section><section class="future" aria-hidden="true" style="display: none;"><div class="sl-block" data-block-type="image" data-block-id="c318735513a8dd7336d906b13f7a1e53" style="min-width: 30px; min-height: 30px; width: 960px; height: 539.469px; left: 0px; top: 80.531px;"><div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="904" data-natural-height="508" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/456441/images/2307637/kalilinux.png"></div></div></section><section class="future" aria-hidden="true" style="display: none;"><div class="sl-block" data-block-type="image" data-block-id="dd6b3ef92244e92a0cd0b20dc01597ed" style="min-width: 30px; min-height: 30px; width: 960px; height: 464.516px; left: 0px; top: 117.484px;"><div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="527" data-natural-height="255" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/456441/images/2307645/centos.jpg"></div></div></section><section class="future" aria-hidden="true" style="display: none;"><div class="sl-block" data-block-type="image" data-block-id="27c39aace6519d15f62cdc2bb2d036e3" style="min-width: 30px; min-height: 30px; width: 960px; height: 514.62px; left: 0px; top: 93.3801px;"><div class="sl-block-content" style="z-index: 11;"><img data-natural-width="1026" data-natural-height="550" style="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/456441/images/2307655/trisquel.jpg"></div></div></section><section class="future" aria-hidden="true" style="display: none;"><div class="sl-block" data-block-type="image" data-block-id="2f6b9585d88b21dc8a1864e3b5f88c85" style="min-width: 30px; min-height: 30px; width: 960px; height: 540px; left: 0px; top: 80px;"><div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="960" data-natural-height="540" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/456441/images/2307673/Linux-Mint.jpg"></div></div></section><section class="future" aria-hidden="true" style="display: none;"><div class="sl-block" data-block-type="image" data-block-id="24a5261ad5add906c0b73320100c116a" style="min-width: 30px; min-height: 30px; width: 960px; height: 639.484px; left: -1px; top: 27.5161px;"><div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="620" data-natural-height="413" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/456441/images/2307720/debian.jpeg"></div></div></section><section class="future" aria-hidden="true" style="display: none;"><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 302px; height: auto;" data-block-id="b993f2ecc31456ef13fa8190040213b9"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text">
+<h1>Entornos de Escritorio</h1>
+</div></div></section><section class="future" aria-hidden="true" style="display: none;"><div class="sl-block" data-block-type="image" style="width: 871.111px; height: 490px; left: 45px; top: 70px;" data-block-id="345eb2de40612e7d2b78c1c3ed8701ff"><div class="sl-block-content"><img style="" data-natural-width="1600" data-natural-height="900" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/456441/images/2307729/gnome.png"></div></div>
+<div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 575px; height: auto;" data-block-id="d50401b2d0a5d172051b1430b7176637"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text">
+<h2>Gnome</h2>
+</div></div></section><section class="future" aria-hidden="true" style="display: none;"><div class="sl-block" data-block-type="image" style="width: 871px; height: 489.698px; left: 45px; top: 69px;" data-block-id="2c78d2c8647cc36a2006c10d848e0abb"><div class="sl-block-content"><img style="" data-natural-width="1366" data-natural-height="768" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/456441/images/2307744/XFCE.png"></div></div>
+<div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 575px; height: auto;" data-block-id="4661a263fe04af2398acbf7443ecf6b5"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text">
+<h2>XFCE</h2>
+</div></div></section><section class="future" aria-hidden="true" style="display: none;"><div class="sl-block" data-block-type="image" style="width: 871px; height: 489.803px; left: 45px; top: 69px;" data-block-id="4ea8ebf04b84263b8886a32607ec3690"><div class="sl-block-content"><img style="" data-natural-width="1211" data-natural-height="681" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/456441/images/2307769/kde.jpg"></div></div>
+<div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 574px; height: auto;" data-block-id="dc4b95839595aeb3ac367d6343cf656a"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" dir="ui"><h2>KDE</h2></div></div></section><section class="future" aria-hidden="true" style="display: none;"><div class="sl-block" data-block-type="image" style="width: 871px; height: 544.375px; left: 45px; top: 42px;" data-block-id="e432d265c7289010ef66de9f3378e354"><div class="sl-block-content"><img style="" data-natural-width="1440" data-natural-height="900" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/456441/images/2307774/unity.png"></div></div>
+<div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 574px; height: auto;" data-block-id="38acdc6e9c503051b9e840023a6515e1"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" dir="ui">
+<h2>Unity</h2>
+</div></div></section><section class="future" aria-hidden="true" style="display: none;"><div class="sl-block" data-block-type="image" style="width: 871px; height: 510.352px; left: 45px; top: 59px;" data-block-id="b2b785fab1d4aadcf17b842f5bd4f63b"><div class="sl-block-content"><img style="" data-natural-width="1024" data-natural-height="600" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/456441/images/2307788/openbox.png"></div></div>
+<div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 574px; height: auto;" data-block-id="dcc8259b8c52db19c63e4165ec34ad2e"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" dir="ui">
+<h2>OpenBox</h2>
+</div></div></section><section class="future" aria-hidden="true" style="display: none;"><div class="sl-block" data-block-type="image" style="width: 871px; height: 489.698px; left: 45px; top: 69px;" data-block-id="b5b9b4a71fb5017538af1c13b687aa91"><div class="sl-block-content"><img style="" data-natural-width="1366" data-natural-height="768" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/456441/images/2307797/phanteon.png"></div></div>
+<div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 574px; height: auto;" data-block-id="596aef7256c8b8b746ad9796184fa2f2"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" dir="ui">
+<h2>Pantheon</h2>
+</div></div></section><section class="future" aria-hidden="true" style="display: none;"><div class="sl-block" data-block-type="image" style="width: 871px; height: 490.047px; left: 45px; top: 69px;" data-block-id="5af42e3845bc96b56e2946244d8e2e92"><div class="sl-block-content"><img style="" data-natural-width="990" data-natural-height="557" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/456441/images/2307804/lxde.jpg"></div></div>
+<div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 574px; height: auto;" data-block-id="b3e3284e71d715e8a3100fb1c183d5dc"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" dir="ui">
+<h2>LXDE</h2>
+</div></div></section></section><section class="stack future" hidden="" aria-hidden="true" style="display: none;"><section style="display: none;"><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 270px; height: auto;" data-block-id="2c55890589db9fa6cafd2b330788d48e"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text">
+<h1>Software</h1>
+</div></div></section><section class="future" aria-hidden="true" style="display: none;"><div class="sl-block" data-block-type="image" style="width: 960px; height: 506.706px; left: 0px; top: 49.2943px;" data-block-id="2605116fe34444ddd8f5b9a148334fdd"><div class="sl-block-content"><img data-natural-width="1366" data-natural-height="721" style="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/456441/images/2307920/eclipse.png"></div></div>
+<div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 575px; height: auto;" data-block-id="249b8ddf3a438219e6b965b0bab78d00"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text">
+<h2>Eclipse</h2>
+</div></div></section><section class="future" aria-hidden="true" style="display: none;"><div class="sl-block" data-block-type="image" style="width: 960px; height: 535.8px; left: 0px; top: 34.5px;" data-block-id="cad53589df50df065091481903e5f024"><div class="sl-block-content"><img data-natural-width="1600" data-natural-height="893" style="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/456441/images/2307924/androidstudio.png"></div></div>
+<div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 575px; height: auto;" data-block-id="350e87fdef5e1f1f25a748adeb239e6a"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text">
+<h2>Android Studio</h2>
+</div></div></section><section class="future" aria-hidden="true" style="display: none;"><div class="sl-block" data-block-type="image" style="width: 891.2px; height: 557px; left: 35px; top: 3px;" data-block-id="2640c19a7f3582547b246c20c718c20f"><div class="sl-block-content"><img data-natural-width="1440" data-natural-height="900" style="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/456441/images/2307927/octave.png"></div></div>
+<div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 575px; height: auto;" data-block-id="9060b53f598d103a23fd9c8f2193c27b"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text">
+<h2>Octave</h2>
+</div></div></section><section class="future" aria-hidden="true" style="display: none;"><div class="sl-block" data-block-type="image" style="width: 960px; height: 506.706px; left: 0px; top: 49.2943px;" data-block-id="ebf7c52d700564b0e306221fe25c50b2"><div class="sl-block-content"><img data-natural-width="1366" data-natural-height="721" style="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/456441/images/2307920/eclipse.png"></div></div>
+<div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 575px; height: auto;" data-block-id="4dae8f79ce2bbf862dfca82fb49ff7fa"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text">
+<h2>Eclipse</h2>
+</div></div></section><section class="future" aria-hidden="true" style="display: none;"><div class="sl-block" data-block-type="image" style="width: 880px; height: 550px; left: 40px; top: 10px;" data-block-id="47a0aa9cf18d9cbdbc246a45afa86034"><div class="sl-block-content"><img data-natural-width="1440" data-natural-height="900" style="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/456441/images/2307948/blender.png"></div></div>
+<div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 575px; height: auto;" data-block-id="b2c819249d4130a59a7e78b944120b15"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text">
+<h2>Blender</h2>
+</div></div></section><section class="future" aria-hidden="true" style="display: none;"><div class="sl-block" data-block-type="image" style="width: 840.497px; height: 577px; left: 60px; top: -8px;" data-block-id="3934a8f49cd5d7d08ab4855f78f24f9f"><div class="sl-block-content"><img data-natural-width="1311" data-natural-height="900" style="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/456441/images/2307975/inkscape.png"></div></div>
+<div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 575px; height: auto;" data-block-id="b15e01079e248168ec6684fa0748d5c0"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text">
+<h2>Inkscape</h2>
+</div></div></section></section><section class="stack future" hidden="" aria-hidden="true" style="display: none;"><section style="display: none;"><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 302px; height: auto;" data-block-id="06c5eda6af6406ea2c1b3ef51d269915"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text">
+<h1>Gestión de Sistema</h1>
+</div></div></section><section class="future" aria-hidden="true" style="display: none;"><div class="sl-block" data-block-type="image" data-block-id="525d4719b4b58fc646eb02863df0ce7e" style="min-width: 30px; min-height: 30px; width: 360px; height: 360px; left: 49px; top: 170px;"><div class="sl-block-content" style="z-index: 11;"><img data-natural-width="512" data-natural-height="512" style="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/456441/images/2307815/terminal.png"></div></div>
+<div class="sl-block" data-block-type="text" data-block-id="ae5e52070f2b16f4d54fbc04e145a77f" style="height: auto; min-width: 30px; min-height: 30px; width: 543px; left: 409px; top: 280px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
+<h3>Bash Scripting</h3>
+
+<h3>Gestión de Software</h3>
+
+<h3>Editores de Texto</h3>
+</div></div></section></section><section class="stack future" hidden="" aria-hidden="true" style="display: none;"><section style="display: none;"><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 302px; height: auto;" data-block-id="3b98bc1feb4ed3e066b5a0c13450ee88"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text">
+<h1>Herramientas</h1>
+</div></div></section><section class="future" aria-hidden="true" style="display: none;"><div class="sl-block" data-block-type="image" data-block-id="76881d7b2529c47dce16ec4d795585a7" style="min-width: 30px; min-height: 30px; width: 360px; height: 124.898px; left: 80px; top: 288px;"><div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="294" data-natural-height="102" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/456441/images/2307853/gpg.png"></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="0ff9f582eadb5301f67f6215d6ea8f2f" style="min-width: 30px; min-height: 30px; width: 260px; height: 260px; left: 590px; top: 230px;"><div class="sl-block-content" style="z-index: 12;"><img style="" data-natural-width="512" data-natural-height="512" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/456441/images/2307855/git.svg"></div></div></section></section><section class="stack future" hidden="" aria-hidden="true" style="display: none;"><section style="display: none;"><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 302px; height: auto;" data-block-id="7f6f3db5980c2f603fcd696d9b3f2256"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text">
+<h1>Servidores</h1>
+</div></div></section><section class="future" aria-hidden="true" style="display: none;"><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 253px; height: auto;" data-block-id="4ba3a92141d31e175beb2842f22ab730"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text">
+<h1>SSH</h1>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 350px; height: auto;" data-block-id="bcd90a9a5ba87f1053e1aee465e88310"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Subtitle">
+<h2>Secure Shell</h2>
+</div></div></section><section class="future" aria-hidden="true" style="display: none;"><div class="sl-block" data-block-type="image" data-block-id="bf1001ca6fc8e18cff02aab5bc54cee2" style="min-width: 30px; min-height: 30px; width: 360px; height: 146.853px; left: 102px; top: 273px;"><div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="429" data-natural-height="175" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/456441/images/2307892/apache.png"></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="85fba86fc69123759e0c7fe331cc9f4f" style="min-width: 30px; min-height: 30px; width: 360px; height: 73.6364px; left: 520px; top: 310px;"><div class="sl-block-content" style="z-index: 12;"><img data-natural-width="352" data-natural-height="72" style="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/456441/images/2307893/nginx.png"></div></div></section></section><section class="stack future" hidden="" aria-hidden="true" style="display: none;"><section style="display: none;"><div class="sl-block" data-block-type="text" style="width: 515px; left: 365px; top: 140px; height: auto;" data-block-id="8b8bfcc4ca915ec6a829c39bfb75b834"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 11;">
+<h2>hacklab.org.bo</h2>
+
+<h2>wiki.hacklab.org.bo</h2>
+
+<p>&nbsp;</p>
+
+<p>Núcleo GNU/Linux</p>
+
+<p>&nbsp;</p>
+
+<p>Núcleo GNU/Linux</p>
+</div></div>
+<div class="sl-block" data-block-type="image" data-block-id="ff36f2241bc20dd81890da9a02be7752" style="min-width: 30px; min-height: 30px; width: 274px; height: 397.042px; left: 46px; top: 152px;"><div class="sl-block-content" style="z-index: 12;"><img data-natural-width="265" data-natural-height="384" style="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/456441/images/2308003/265px-Gnu-tux.png"></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="2b1e964e0ea3488f786df9db5406ed4a" style="min-width: 30px; min-height: 30px; width: 55px; height: 55px; left: 425px; top: 351px;"><div class="sl-block-content" style="z-index: 13;"><img style="" data-natural-width="80" data-natural-height="80" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/456441/images/2308030/telegram.png"></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="4b6cea13bc8558ce472487b5c0d84f7f" style="min-width: 30px; min-height: 30px; width: 55px; height: 55px; left: 425px; top: 435px;"><div class="sl-block-content" style="z-index: 14;"><img style="" data-natural-width="267" data-natural-height="267" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/456441/images/2308040/facebook.png"></div></div></section><section class="future" aria-hidden="true" style="display: none;"><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 271px; height: auto;" data-block-id="36cdd136224580557d6d998ce99e7d43"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text">
+<h1>Viernes 10:00 - 12:00</h1>
+
+<h3>Laboratorio de Telemática</h3>
+</div></div></section></section>
+				</div>
+			<div class="backgrounds"><div class="slide-background stack present" data-loaded="true" style="display: block;"><div class="slide-background has-light-background present" data-background-hash="0#ffffffnullnullnull" style="display: block; background-color: rgb(255, 255, 255);" data-loaded="true"></div><div class="slide-background future" data-loaded="true" style="display: block;"></div><div class="slide-background future" data-loaded="true" style="display: block;"></div><div class="slide-background future" style="display: none;"></div></div><div class="slide-background stack future" data-loaded="true" style="display: block;"><div class="slide-background present" data-loaded="true" style="display: block;"></div><div class="slide-background future" data-loaded="true" style="display: block;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div></div><div class="slide-background stack future" data-loaded="true" style="display: block;"><div class="slide-background present" data-loaded="true" style="display: block;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div></div><div class="slide-background stack future" style="display: none;"><div class="slide-background present" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div></div><div class="slide-background stack future" style="display: none;"><div class="slide-background present" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div></div><div class="slide-background stack future" style="display: none;"><div class="slide-background present" style="display: none;"></div><div class="slide-background future" style="display: none;"></div></div><div class="slide-background stack future" style="display: none;"><div class="slide-background present" style="display: none;"></div><div class="slide-background future" style="display: none;"></div></div><div class="slide-background stack future" style="display: none;"><div class="slide-background present" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div></div><div class="slide-background stack future" style="display: none;"><div class="slide-background present" style="display: none;"></div><div class="slide-background future" style="display: none;"></div></div></div><div class="progress" style="display: block;"><span style="width: 0px;"></span></div><aside class="controls" style="display: block;"><div class="navigate-left"></div><div class="navigate-right enabled"></div><div class="navigate-up"></div><div class="navigate-down enabled"></div></aside><div class="slide-number" style="display: none;"></div><div class="speaker-notes" data-prevent-swipe=""></div><div class="pause-overlay"></div><div id="aria-status-div" aria-live="polite" aria-atomic="true" style="position: absolute; height: 1px; width: 1px; overflow: hidden; clip: rect(1px 1px 1px 1px);">
+Núcleo GNU/Linux
+
+
+</div></div>
+		</div>
+	</div>
+
+	<div class="deck-kudos" style="opacity: 1;">
+		<button class="kudos-button kudos-trigger" data-kudos-id="622862" data-kudoed-by-user="false">
+			<div class="kudos-heart">
+				<span class="kudos-icon icon i-heart-fill"></span>
+			</div>
+			<div class="kudos-count" data-kudos-value="0" data-kudos-id="622862"></div>
+		</button>
+	</div>
+
+	<div class="pill summary-pill" style="left: 537px;">
+		<div class="pill-picture" style="background-image: url(https://www.gravatar.com/avatar/567367411f9fcc26e5fcefaeac0897f6?s=140&amp;d=https%3A%2F%2Fs3.amazonaws.com%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png)"></div>
+		<div class="pill-content">
+			<h4 class="pill-title">Núcleo GNU/Linux</h4>
+			<p class="pill-description">By Alejandro Quisbert Carvajal</p>
+		</div>
+	</div>
+
+	<div class="pill instructions-pill" style="left: 607px;">
+		<div class="pill-picture"></div>
+		<div class="pill-content">
+			<h4 class="pill-title"></h4>
+			<p class="pill-description"></p>
+		</div>
+	</div>
+
+</div>
+
+<div class="column">
+	<header class="deck-info extra-wide">
+		<div class="deck-social">
+			<a href="http://www.facebook.com/sharer.php?s=100&amp;p[title]=N%C3%BAcleo%20GNU%2FLinux%20by%20Alejandro%20Quisbert%20Carvajal&amp;p[summary]=Presentaci%C3%B3n%20Grupo%20de%20Estudio&amp;p[url]=http://slides.com/alexandrovirus/nucleo-gnu-linux&amp;p[images][0]=https://s3.amazonaws.com/media-p.slid.es/thumbnails/secure/7ad233/decks.jpg" class="deck-social-button facebook-share-button" data-tooltip="Share on Facebook">
+				<span class="icon i-facebook"></span>
+			</a>
+			<a href="http://twitter.com/share?text=N%C3%BAcleo%20GNU%2FLinux%20by%20Alejandro%20Quisbert%20Carvajal&amp;url=http%3A%2F%2Fslides.com%2Falexandrovirus%2Fnucleo-gnu-linux&amp;via=slides" class="deck-social-button twitter-share-button" data-tooltip="Share on Twitter">
+				<span class="icon i-twitter"></span>
+			</a>
+			<a href="https://plus.google.com/share?url=http%3A%2F%2Fslides.com%2Falexandrovirus%2Fnucleo-gnu-linux" class="deck-social-button google-share-button" data-tooltip="Share on Google+">
+			</a>
+		</div>
+
+		<div class="deck-promotion">
+			<a class="button cta" href="http://slides.com/pricing?ref=caplt">Create a presentation like this <span class="logo"></span></a>
+		</div>
+
+
+		<div class="deck-options">
+			<a class="fullscreen-button" data-tooltip="Fullscreen" href="http://slides.com/alexandrovirus/nucleo-gnu-linux#"><span class="icon i-fullscreen"></span></a>
+			<a class="comment-button" data-tooltip="Comments" data-scroll-to="" href="http://slides.com/alexandrovirus/nucleo-gnu-linux#comments" data-scroll-to-offset="-90"><span class="icon i-comment-stroke"></span></a>
+			<a class="share-button" data-tooltip="Share" href="http://slides.com/alexandrovirus/nucleo-gnu-linux#"><span class="icon i-share"></span></a>
+		</div>
+
+		<div class="clear"></div>
+
+		<div class="details">
+			<div class="deck-info">
+				<h3 class="title">Núcleo GNU/Linux</h3>
+				<p class="description">Presentación Grupo de Estudio</p>
+				<ul class="deck-meta">
+					<li data-tooltip="Published date" data-tooltip-delay="500">
+						<span class="icon i-clock"></span>
+						<time class="value ago" datetime="2016-02-29 11:09:30 UTC">3 months ago</time>
+					</li>
+					<li data-tooltip="Kudos" data-tooltip-delay="500">
+						<span class="icon i-heart-fill"></span>
+						<span class="value" data-kudos-value="0" data-kudos-id="622862"></span>
+					</li>
+					<li data-tooltip="Views" data-tooltip-delay="500">
+						<span class="icon i-eye"></span>
+						<span class="value">2</span>
+					</li>
+				</ul>
+			</div>
+
+			<div class="user-info">
+	<div class="picture" style="background-image: url(https://www.gravatar.com/avatar/567367411f9fcc26e5fcefaeac0897f6?s=140&amp;d=https%3A%2F%2Fs3.amazonaws.com%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png)"></div>
+	<div class="text">
+		<h3 class="title">
+			<a href="http://slides.com/alexandrovirus" class="username">Alejandro Quisbert Carvajal</a>
+		</h3>
+		<p class="description"></p>
+		<ul class="links">
+			 <li><a href="https://alexandropqc.wordpress.com/" target="_blank"><span class="icon i-link"></span>https://alexandropqc.wordpress.com/</a></li> 
+			
+		</ul>
+	</div>
+	<div class="clear"></div>
+</div>
+
+			<div class="clear"></div>
+		</div>
+	</header>
+
+	<section class="comments" id="comments">
+		<div id="disqus_thread"><iframe id="dsq-app2" name="dsq-app2" allowtransparency="true" frameborder="0" scrolling="no" tabindex="0" title="Disqus" width="100%" src="./Núcleo GNU_Linux by Alejandro Quisbert Carvajal_files/saved_resource.html" style="width: 1px !important; min-width: 100% !important; border: none !important; overflow: hidden !important; height: 321px !important;" horizontalscrolling="no" verticalscrolling="no"></iframe></div>
+	</section>
+
+	<section class="deck-list">
+		<h2>More from <a href="http://slides.com/alexandrovirus">Alejandro Quisbert Carvajal</a></h2>
+		<ul class="carousel">
+			<li class="deck-thumbnail">
+  <div class="deck-image" style="background-image: url(https://s3.amazonaws.com/media-p.slid.es/thumbnails/c7c1b950e8da7514b8463a08109675a9/thumb.jpg)">
+    <a class="deck-link" href="http://slides.com/alexandrovirus/postgresql"></a>
+  </div>
+  <footer class="deck-details">
+    <a class="author" href="http://slides.com/alexandrovirus">
+      <span class="picture" style="background-image: url(https://www.gravatar.com/avatar/567367411f9fcc26e5fcefaeac0897f6?s=140&amp;d=https%3A%2F%2Fs3.amazonaws.com%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png)"></span>
+      <span class="name">Alejandro Quisbert Carvajal</span>
+    </a>
+    <div class="stats">
+      <div>7<span class="icon i-eye"></span></div>
+    </div>
+  </footer>
+</li>
+<li class="deck-thumbnail">
+  <div class="deck-image" style="background-image: url(https://s3.amazonaws.com/media-p.slid.es/thumbnails/baadc0e22dd185ce5ebdd52906ae06c6/thumb.jpg)">
+    <a class="deck-link" href="http://slides.com/alexandrovirus/deck"></a>
+  </div>
+  <footer class="deck-details">
+    <a class="author" href="http://slides.com/alexandrovirus">
+      <span class="picture" style="background-image: url(https://www.gravatar.com/avatar/567367411f9fcc26e5fcefaeac0897f6?s=140&amp;d=https%3A%2F%2Fs3.amazonaws.com%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png)"></span>
+      <span class="name">Alejandro Quisbert Carvajal</span>
+    </a>
+    <div class="stats">
+      <div>18<span class="icon i-eye"></span></div>
+    </div>
+  </footer>
+</li>
+
+		</ul>
+	</section>
+
+</div>
+
+
+      </div>
+      <footer class="global-footer">
+    <div class="link-group">
+      <h5>Product</h5>
+      <a href="http://slides.com/">Home</a>
+      <a href="http://slides.com/explore">Explore</a>
+      <a href="http://slides.com/features">Features</a>
+      <a href="http://slides.com/pricing">Pricing</a>
+    </div>
+
+    <div class="link-group">
+      <h5>Help</h5>
+      <a href="http://help.slides.com/" target="_blank">Forum</a>
+      <a href="http://help.slides.com/knowledgebase" target="_blank">Knowledge Base</a>
+      <a href="http://help.slides.com/" data-feedback-mode="smartvote">Leave Feedback</a>
+      <a href="http://help.slides.com/" data-feedback-mode="contact">Report an Issue</a>
+    </div>
+
+    <div class="link-group">
+      <h5>News</h5>
+      <a href="http://blog.slides.com/" target="_blank">Blog</a>
+      <a href="http://twitter.com/slides" target="_blank">Twitter</a>
+      <a href="http://facebook.com/slidesapp" target="_blank">Facebook</a>
+      <a href="http://plus.google.com/+slidesapp/" rel="publisher" target="_blank">Google+</a>
+    </div>
+
+    <div class="link-group">
+      <h5>Company</h5>
+      <a href="http://slides.com/about">About Slides</a>
+      <a href="http://slides.com/changelog">What's New</a>
+      <a href="http://slides.com/terms">Terms of Service</a>
+      <a href="http://slides.com/privacy">Privacy Policy</a>
+    </div>
+
+    <div class="copyright"><span>© 2016 Slides, Inc.</span></div>
+</footer>
+
+    </div> <!--! end of #container -->
+    <script>
+UserVoice=window.UserVoice||[];(function(){var uv=document.createElement('script');uv.type='text/javascript';uv.async=true;uv.src='//widget.uservoice.com/f7sH7NavrjjvuGxByaw.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(uv,s)})();
+
+UserVoice.push(['set', {
+  accent_color: '#448dd6',
+  trigger_color: 'white',
+  trigger_background_color: 'rgba(46, 49, 51, 0.6)',
+  position: 'automatic'
+}]);
+
+</script>
+    
+<script>
+	var SLConfig = {"deck":{"id":622862,"slug":"nucleo-gnu-linux","title":"Núcleo GNU/Linux","description":"Presentación Grupo de Estudio","visibility":"all","published_at":"2016-02-29T11:09:30.808Z","sanitize_messages":null,"thumbnail_url":"https://s3.amazonaws.com/media-p.slid.es/thumbnails/secure/7ad233/decks.jpg","view_count":2,"user":{"id":456441,"username":"alexandrovirus","name":"Alejandro Quisbert Carvajal","description":"","thumbnail_url":"https://www.gravatar.com/avatar/567367411f9fcc26e5fcefaeac0897f6?s=140\u0026d=https%3A%2F%2Fs3.amazonaws.com%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png","pro":false,"team_id":null,"settings":{"id":297204,"present_controls":true,"present_upsizing":true,"present_notes":true}},"background_transition":"none","transition":"zoom","theme_id":null,"theme_font":"sketch","theme_color":"white-blue","auto_slide_interval":0,"comments_enabled":true,"forking_enabled":true,"rolling_links":false,"center":false,"should_loop":false,"share_notes":null,"slide_number":null,"rtl":false,"version":2,"collaborative":null,"deck_user_editor_limit":1}};
+</script>
+    <script defer="defer" src="./Núcleo GNU_Linux by Alejandro Quisbert Carvajal_files/application-24d7b219e5759be95961dfc46a37d679.js"></script>
+    	<script defer="defer" src="./Núcleo GNU_Linux by Alejandro Quisbert Carvajal_files/reveal.min-571292e3a21652f0af33ca7bc2176f46.js"></script>
+	
+
+
+  
+
+<div id="scrollrail-vertical" style="display: none;"><div id="scrollbar-vertical"></div></div><div id="scrollrail-horizontal" style="display: none;"><div id="scrollbar-horizontal"></div></div></body></html>
